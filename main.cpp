@@ -61,7 +61,7 @@ int main() {
     contaCartao.mostrarInformacoes();
     cout << "\nInformações do Funcionário:" << endl;
     funcionario.mostrarInformacoes();
-    cout << "\nInformações do Gerente:" << endl;
+    cout << "\nInformações do Supervisor:" << endl;
     supervisor.mostrarInformacoes();
     cout << "\nInformações do Técnico:" << endl;
     tecnico.mostrarInformacoes();
