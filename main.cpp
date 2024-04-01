@@ -54,7 +54,7 @@ public:
 int main() {
     ContaCartao contaCartao("João", "123456", 1000.0);
     Funcionario funcionario("Maria", "Analista", 3000.0);
-    Supervisor supervisor("Carlos", "Gerente", 5000.0, "TI");
+    Supervisor supervisor("Carlos", "Supervisor", 5000.0, "TI");
     Tecnico tecnico("Ana", "Técnico", 2500.0, "Suporte");
 
     cout << "Informações da Conta Cartão:" << endl;
