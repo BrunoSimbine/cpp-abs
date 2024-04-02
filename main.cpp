@@ -5,8 +5,9 @@ using namespace std;
 class Z {
 protected:
     string nome;
+    string endereco;
 public:
-    Z(string n) : nome(n) {}
+    Z(string n, string e) : nome(n), endereco(e) {}
 };
 
 class ContaCartao : public Z {
